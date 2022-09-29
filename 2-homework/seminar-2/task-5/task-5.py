@@ -1,4 +1,4 @@
-# Реализуйте алгоритм перемешивания списка
+# Реализуйте алгоритм перемешивания списка -*- coding: cp1251 -*-
 from random import shuffle
 from random import randrange
 
