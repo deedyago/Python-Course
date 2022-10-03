@@ -5,7 +5,7 @@
     <ProjectGuid>60898a0c-3a7d-40d2-941a-df34966da6bf</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>2-homework\seminar-2\task-5\task-5.py</StartupFile>
+    <StartupFile>2-homework\seminar-3\task-5\task-5.py</StartupFile>
     <SearchPath>2-homework\seminar-2\task-4</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -46,6 +46,11 @@
     <Compile Include="2-homework\seminar-2\task-3\task-3.py" />
     <Compile Include="2-homework\seminar-2\task-4\task-4.py" />
     <Compile Include="2-homework\seminar-2\task-5\task-5.py" />
+    <Compile Include="2-homework\seminar-3\task-1\task-1.py" />
+    <Compile Include="2-homework\seminar-3\task-2\task-2.py" />
+    <Compile Include="2-homework\seminar-3\task-3\task-3.py" />
+    <Compile Include="2-homework\seminar-3\task-4\task-4.py" />
+    <Compile Include="2-homework\seminar-3\task-5\task-5.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1-lessons\seminar-2\" />
@@ -56,6 +61,7 @@
     <Folder Include="1-lessons\seminar-2\task-2\" />
     <Folder Include="1-lessons\seminar-2\task-1\" />
     <Folder Include="2-homework\" />
+    <Folder Include="2-homework\seminar-3\" />
     <Folder Include="2-homework\seminar-2\" />
     <Folder Include="2-homework\seminar-1\" />
     <Folder Include="2-homework\seminar-1\task-5\" />
@@ -69,6 +75,11 @@
     <Folder Include="2-homework\seminar-2\task-3\" />
     <Folder Include="2-homework\seminar-2\task-2\" />
     <Folder Include="2-homework\seminar-2\task-1\" />
+    <Folder Include="2-homework\seminar-3\task-5\" />
+    <Folder Include="2-homework\seminar-3\task-4\" />
+    <Folder Include="2-homework\seminar-3\task-3\" />
+    <Folder Include="2-homework\seminar-3\task-2\" />
+    <Folder Include="2-homework\seminar-3\task-1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="file.txt" />
