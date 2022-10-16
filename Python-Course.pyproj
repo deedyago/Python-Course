@@ -105,6 +105,7 @@
     <Folder Include="2-homework\seminar-5\task-1\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="toEncodeFile.txt" />
     <Content Include="file.txt" />
     <Content Include="MChel2.txt" />
     <Content Include="MChel1.txt" />

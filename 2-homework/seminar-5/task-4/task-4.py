@@ -14,10 +14,16 @@ def Encode(inputData):
             count += 1
     else:
         output += str(count) + prevChar
+    outputFile = open("EncodedFile.txt","w")
+    outputFile.write(output)
+    outputFile.close()
     return output
 
-print(Encode("AAAAAAAAAAABBBCCCBCBCBBBBCCCD"))
-
+def FileOpen(file):
+    inputFile = open(f"{file}","r")
+    output = inputFile.readline()
+    return output
+    inputFile.close()
 
 def Decode(inputData):
     output = ''
@@ -28,6 +34,10 @@ def Decode(inputData):
         else:
             output += char * int(count)
             count = ''
+    outputFile = open("DecodedFile.txt","w")
+    outputFile.write(output)
+    outputFile.close()
     return output
 
-print(Decode(Encode("\nAAAAAAAAAAABBBCCCBCBCBBBBCCCD")))
+print(Encode(FileOpen("toEncodeFile.txt")))
+print(Decode(FileOpen("EncodedFile.txt")))
