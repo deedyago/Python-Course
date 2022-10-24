@@ -5,12 +5,14 @@
     <ProjectGuid>60898a0c-3a7d-40d2-941a-df34966da6bf</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>2-homework\seminar-5\task-4\task-4.py</StartupFile>
-    <SearchPath>2-homework\seminar-2\task-4</SearchPath>
+    <StartupFile>2-homework\seminar-8\Company\logic.py</StartupFile>
+    <SearchPath>2-homework\seminar-8\Company</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Python-Course</Name>
     <RootNamespace>Python-Course</RootNamespace>
+    <InterpreterId>
+    </InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,6 +63,11 @@
     <Compile Include="2-homework\seminar-5\task-2\task-2.py" />
     <Compile Include="2-homework\seminar-5\task-3\task-3.py" />
     <Compile Include="2-homework\seminar-5\task-4\task-4.py" />
+    <Compile Include="2-homework\seminar-8\Company\logic.py" />
+    <Compile Include="2-homework\seminar-8\Company\main.py" />
+    <Compile Include="2-homework\seminar-8\Company\reading.py" />
+    <Compile Include="2-homework\seminar-8\Company\view.py" />
+    <Compile Include="2-homework\seminar-9\task.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1-lessons\seminar-4\" />
@@ -73,6 +80,8 @@
     <Folder Include="1-lessons\seminar-2\task-1\" />
     <Folder Include="1-lessons\seminar-4\task-1\" />
     <Folder Include="2-homework\" />
+    <Folder Include="2-homework\seminar-9\" />
+    <Folder Include="2-homework\seminar-8\" />
     <Folder Include="2-homework\seminar-5\" />
     <Folder Include="2-homework\seminar-4\" />
     <Folder Include="2-homework\seminar-3\" />
@@ -103,8 +112,12 @@
     <Folder Include="2-homework\seminar-5\task-3\" />
     <Folder Include="2-homework\seminar-5\task-2\" />
     <Folder Include="2-homework\seminar-5\task-1\" />
+    <Folder Include="2-homework\seminar-8\Company\" />
+    <Folder Include="venv\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="2-homework\seminar-8\Company\database.csv" />
+    <Content Include="2-homework\seminar-8\Company\database02.json" />
     <Content Include="toEncodeFile.txt" />
     <Content Include="file.txt" />
     <Content Include="MChel2.txt" />
