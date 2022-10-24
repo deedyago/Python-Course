@@ -36,16 +36,12 @@ def AddContact():
         dataOut = dict(zip(names, newContact))
     return dataOut
 
-
 def Print(dataToPrint):
     names = ["ID","Lastname", "Firstname", "Position", "Phone number", "Salary"]
     dataOut = []
     for i in range(len(dataToPrint)):
-        #dataOut.append(dataToPrint[i].values())
         dataOut = dict(zip(names, dataToPrint[i].values()))
         print(dataOut.values())
-    #print(dataOut)
-    
 
 def WriteJson(employees: list):
     nameOfFIle = str(input("Name of file: "))
