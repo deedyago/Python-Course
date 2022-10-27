@@ -5,7 +5,7 @@ import os
 import func2 as f
 
 dataFile = 'database.csv'
-#Пока не сделал загрузку файла пользователем, как вернуть значение из карутина?(((((
+#РџРѕРєР° РЅРµ СЃРґРµР»Р°Р» Р·Р°РіСЂСѓР·РєСѓ С„Р°Р№Р»Р° РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј, РєР°Рє РІРµСЂРЅСѓС‚СЊ Р·РЅР°С‡РµРЅРёРµ РёР· РєР°СЂСѓС‚РёРЅР°?(((((
 #dataFile = '.'
 #async def UserFileDownloader(update: Update, context: ContextTypes.DEFAULT_TYPE):
 #    global dataFile
@@ -25,7 +25,7 @@ dataFile = 'database.csv'
 #        dataFile = dataFile.replace('}','')
 
 
-# Проверка на тип файла
+# РџСЂРѕРІРµСЂРєР° РЅР° С‚РёРї С„Р°Р№Р»Р°
 def CheckFileExtension():
     dataFileList = dataFile.split(".")
     if dataFileList[1] == "csv":

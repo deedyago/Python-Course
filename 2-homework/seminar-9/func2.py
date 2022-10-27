@@ -4,7 +4,7 @@ import logic2 as l
 import csv
 import json
 
-dataBase = l.CheckFileExtension() # Подгрузка файла
+dataBase = l.CheckFileExtension() # РџРѕРґРіСЂСѓР·РєР° С„Р°Р№Р»Р°
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f'Hello! {update.effective_user.first_name}, I am a DataBase Bot, let\'s start')
@@ -88,7 +88,7 @@ async def RemoveEmployee(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return 
 
 
-# Блок с выводом(отправлением файла ботом в чат с пользователем с указанием имени файла самим пользоветелем)
+# Р‘Р»РѕРє СЃ РІС‹РІРѕРґРѕРј(РѕС‚РїСЂР°РІР»РµРЅРёРµРј С„Р°Р№Р»Р° Р±РѕС‚РѕРј РІ С‡Р°С‚ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј СЃ СѓРєР°Р·Р°РЅРёРµРј РёРјРµРЅРё С„Р°Р№Р»Р° СЃР°РјРёРј РїРѕР»СЊР·РѕРІРµС‚РµР»РµРј)
  
 async def CsvExportViewMenu(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"/csvexport (name of file) ")

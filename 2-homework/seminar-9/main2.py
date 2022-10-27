@@ -8,26 +8,26 @@ if __name__ == '__main__':
     
     application.add_handler(CommandHandler('start', f.start)) 
 
-    application.add_handler(CommandHandler('db', f.Menu))                                 #Меню с командами
+    application.add_handler(CommandHandler('db', f.Menu))                                 #РњРµРЅСЋ СЃ РєРѕРјР°РЅРґР°РјРё
 
-    #application.add_handler(CommandHandler('view_up', f.DownloaderViewMenu))              #Пока неполностью рабочее
-    #application.add_handler(MessageHandler(filters.Document.ALL, l.UserFileDownloader))   #Пока неполностью  рабочее
+    #application.add_handler(CommandHandler('view_up', f.DownloaderViewMenu))              #РџРѕРєР° РЅРµРїРѕР»РЅРѕСЃС‚СЊСЋ СЂР°Р±РѕС‡РµРµ
+    #application.add_handler(MessageHandler(filters.Document.ALL, l.UserFileDownloader))   #РџРѕРєР° РЅРµРїРѕР»РЅРѕСЃС‚СЊСЋ  СЂР°Р±РѕС‡РµРµ
 
-    application.add_handler(CommandHandler('view_0', f.PrintAll))                         #Вывод базы 
+    application.add_handler(CommandHandler('view_0', f.PrintAll))                         #Р’С‹РІРѕРґ Р±Р°Р·С‹ 
 
-    application.add_handler(CommandHandler('view_1', f.FindMenuView))                     #Меню поиска по базе
-    application.add_handler(CommandHandler('find', f.FindE))                              #Поиск по базе
+    application.add_handler(CommandHandler('view_1', f.FindMenuView))                     #РњРµРЅСЋ РїРѕРёСЃРєР° РїРѕ Р±Р°Р·Рµ
+    application.add_handler(CommandHandler('find', f.FindE))                              #РџРѕРёСЃРє РїРѕ Р±Р°Р·Рµ
 
-    application.add_handler(CommandHandler('view_2', f.AddViewMenu))                      #Меню добавления в базу
-    application.add_handler(CommandHandler('add', f.AddEmployee))                         #Добавление в базу
+    application.add_handler(CommandHandler('view_2', f.AddViewMenu))                      #РњРµРЅСЋ РґРѕР±Р°РІР»РµРЅРёСЏ РІ Р±Р°Р·Сѓ
+    application.add_handler(CommandHandler('add', f.AddEmployee))                         #Р”РѕР±Р°РІР»РµРЅРёРµ РІ Р±Р°Р·Сѓ
 
-    application.add_handler(CommandHandler('view_3', f.RemoveViewMenu))                   #Меню удаления из базы
-    application.add_handler(CommandHandler('remove', f.RemoveEmployee))                   #Удаление из базы
+    application.add_handler(CommandHandler('view_3', f.RemoveViewMenu))                   #РњРµРЅСЋ СѓРґР°Р»РµРЅРёСЏ РёР· Р±Р°Р·С‹
+    application.add_handler(CommandHandler('remove', f.RemoveEmployee))                   #РЈРґР°Р»РµРЅРёРµ РёР· Р±Р°Р·С‹
 
-    application.add_handler(CommandHandler('view_4', f.JsonExportViewMenu))               #Экспорт JSON
+    application.add_handler(CommandHandler('view_4', f.JsonExportViewMenu))               #Р­РєСЃРїРѕСЂС‚ JSON
     application.add_handler(CommandHandler('jsonexport', f.JsonExport))
 
-    application.add_handler(CommandHandler('view_5', f.CsvExportViewMenu))                #Экспорт CSV
+    application.add_handler(CommandHandler('view_5', f.CsvExportViewMenu))                #Р­РєСЃРїРѕСЂС‚ CSV
     application.add_handler(CommandHandler('csvexport', f.CsvExport))
     
 
